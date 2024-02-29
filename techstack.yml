@@ -1,0 +1,405 @@
+repo_name: BenHerbst/netbeans-mmd-plugin
+report_id: e27c7edc805dd2fe6ddb0410c08c5a5f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:06:23+00:00'
+requested_by: BenHerbst
+provider: github
+branch: master
+detected_tools_count: 31
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin
+  detection_source: Repo Metadata
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2022-06-22 21:36:28.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2019-12-03 23:13:58.000000000 Z
+- name: Kafka Streams
+  description: A client library for building applications and microservices
+  website_url: https://kafka.apache.org/documentation/streams/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Stream Processing
+  image_url: https://img.stackshare.io/service/9190/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2019-12-07 20:50:20.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/assets/testdata/tabbed.txt
+  detection_source: assets/testdata/tabbed.txt
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2017-09-30 16:21:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/idea-mindmap/build.gradle
+  detection_source: mind-map/idea-mindmap/build.gradle
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2017-08-17 15:53:14.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/pom.xml
+  detection_source: mind-map/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2015-09-08 22:01:44.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 2.28.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/pom.xml
+  detection_source: mind-map/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2017-11-14 07:59:41.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/assets/testdata/tabbed.txt
+  detection_source: assets/testdata/tabbed.txt
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2017-09-30 16:21:35.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin
+  detection_source: Repo Metadata
+- name: com.fifesoft:autocomplete
+  description: AutoComplete is a library allowing you to add IDE-like auto-completion
+  version: 3.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2022-07-12 07:02:19.000000000 Z
+- name: com.fifesoft:rsyntaxtextarea
+  description: RSyntaxTextArea is the syntax highlighting text editor for Swing applications
+  version: 3.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2022-07-12 07:02:19.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-12-04 12:23:25.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/mind-map-model/pom.xml
+  detection_source: mind-map/mind-map-model/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-07-18 10:43:58.000000000 Z
+- name: io.projectreactor:reactor-core
+  description: Non-Blocking Reactive Foundation for the JVM
+  version: 3.4.19
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2022-06-22 21:36:28.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/pom.xml
+  detection_source: mind-map/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2015-09-08 22:01:44.000000000 Z
+- name: net.iharder:base64
+  description: A Java class providing very fast Base64 encoding and decoding in the
+    form of convenience methods and input/output streams
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/mind-map-swing-panel/pom.xml
+  detection_source: mind-map/mind-map-swing-panel/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2019-01-18 19:59:25.000000000 Z
+- name: net.java.dev.jna:jna
+  description: Java Native Access
+  version: 5.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-12-04 12:23:25.000000000 Z
+- name: net.java.dev.jna:jna-platform
+  description: Java Native Access Platform
+  version: 5.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2022-07-12 07:02:19.000000000 Z
+- name: net.sf.jung:jung-graph-impl
+  description: Graph implementations for the JUNG project
+  version: 2.1.1
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2019-01-07 22:16:49.000000000 Z
+- name: net.sf.jung:jung-visualization
+  description: Core visualization support for the JUNG project
+  version: 2.1.1
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-12-04 12:23:25.000000000 Z
+- name: net.sourceforge.plantuml:plantuml
+  description: 'PlantUML is a component that allows to quickly write : * sequence
+    diagram'
+  version: 1.2022.6
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2022-06-22 21:36:28.000000000 Z
+  vulnerabilities:
+  - name: PlantUML Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-3432
+    cve_url: https://github.com/advisories/GHSA-ff3m-68vj-h86p
+    detected_date: Nov 29
+    severity: high
+    first_patched: 1.2023.9
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/mind-map-model/pom.xml
+  detection_source: mind-map/mind-map-model/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-07-18 10:43:58.000000000 Z
+- name: org.apache.kafka:kafka-streams
+  version: 2.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-12-04 12:23:25.000000000 Z
+- name: org.apache.xmlgraphics:batik-dom
+  version: '1.14'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-12-04 12:23:25.000000000 Z
+- name: org.apache.xmlgraphics:batik-svggen
+  version: '1.14'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/scia-reto/pom.xml
+  detection_source: mind-map/scia-reto/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-12-04 12:23:25.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/mind-map-swing-panel/pom.xml
+  detection_source: mind-map/mind-map-swing-panel/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-08-10 07:02:37.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/mind-map-swing-panel/pom.xml
+  detection_source: mind-map/mind-map-swing-panel/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2021-08-10 07:02:37.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 2.28.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/netbeans-mmd-plugin/blob/master/mind-map/pom.xml
+  detection_source: mind-map/pom.xml
+  last_updated_by: Igor Maznitsa
+  last_updated_on: 2022-01-18 22:14:28.000000000 Z
